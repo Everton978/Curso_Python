@@ -1,0 +1,20 @@
+Nomes = ['Maria', 'Helena', 'Luiz']
+#Desempacotamento de listas, QUERO QUE CADA VARIAVEL RECEBA UM VALOR DA MINHA LISTA
+
+nome1, nome2, nome3 = Nomes
+print(nome1, nome2, nome3)
+
+# ou seja
+
+Nome1, Nome2, Nome3, Nome4 = ['Maria','Camila', 'Helena', 'Luiz']
+print(Nome1, Nome2, Nome3, Nome4)
+
+#para empacotar novmente caso sobre algumvalor uso *resto, ou seja, o resto dos valores da lista serão armazenados na variavel resto
+Nome_5, *resto = ['Ma ria','Cam ila', 'Helena', 'Lu iz']
+print(Nome_5, resto)
+
+#quando não for usar coloco um _
+
+_, _, Iteresse, *_ = ["Ana", "Bruno", "Carla", "Daniel"]
+
+print(Iteresse)
